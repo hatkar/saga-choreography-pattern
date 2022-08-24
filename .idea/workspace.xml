@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1eff1785-d7b3-453a-9082-8b5afbb34911" name="Default Changelist" comment="" />
+    <list default="true" id="1eff1785-d7b3-453a-9082-8b5afbb34911" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-dtos/common-dtos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-dtos/common-dtos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-dtos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-dtos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-dtos/target/common-dtos-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-dtos/target/common-dtos-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-dtos/target/common-dtos-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-dtos/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common-dtos/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-dtos/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common-dtos/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/order-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/order-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/order-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/payment-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/payment-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/target/payment-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/target/payment-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/target/payment-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +29,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2DnpdWEDAgqfr2RKpBZSGWQMecm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,11 +49,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hatmani.saga.commons.event" />
+      <recent name="com.hatmani.saga.commons.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.saga-build">
     <configuration name="saga-build" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -61,13 +95,32 @@
             <option name="profilesMap">
               <map />
             </option>
-            <option name="resolveToWorkspace" value="false" />
+            <option name="resolveToWorkspace" value="true" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hatmani.saga.order.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="payment-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hatmani.saga.paymentservice.PaymentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.saga-build" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
+      <item itemvalue="Spring Boot.PaymentServiceApplication" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -81,7 +134,7 @@
       <updated>1661344791166</updated>
       <workItem from="1661344830771" duration="2000" />
       <workItem from="1661344859880" duration="157000" />
-      <workItem from="1661345154484" duration="1766000" />
+      <workItem from="1661345154484" duration="10173000" />
     </task>
     <servers />
   </component>
@@ -89,10 +142,35 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="114" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1661347145569">
+    <state x="114" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1661353676907">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="114" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1661353676907" />
+    <state x="114" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.709@0.23.1280.709" timestamp="1661347145569" />
+    <state x="659" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1661350893836">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="114" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.709@0.23.1280.709" timestamp="1661347145569" />
+    <state x="659" y="68" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1661350893836" />
+    <state width="825" height="97" key="GridCell.Tab.0.bottom" timestamp="1661356278608">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state width="1238" height="252" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1661353680100" />
+    <state width="825" height="97" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1661356278608" />
+    <state width="825" height="97" key="GridCell.Tab.0.center" timestamp="1661356278607">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state width="1238" height="252" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1661353680097" />
+    <state width="825" height="97" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1661356278607" />
+    <state width="825" height="97" key="GridCell.Tab.0.left" timestamp="1661356278607">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state width="1238" height="252" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1661353680096" />
+    <state width="825" height="97" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1661356278607" />
+    <state width="825" height="97" key="GridCell.Tab.0.right" timestamp="1661356278608">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state width="1238" height="252" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1661353680098" />
+    <state width="825" height="97" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1661356278608" />
     <state x="298" y="23" width="982" height="709" key="SettingsEditor" timestamp="1661345037999">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
