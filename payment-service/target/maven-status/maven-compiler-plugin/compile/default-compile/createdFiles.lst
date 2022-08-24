@@ -1,3 +1,4 @@
+com/hatmani/saga/paymentservice/config/OrderPublisherConfig.class
 com/hatmani/saga/paymentservice/controller/OrderController.class
 com/hatmani/saga/paymentservice/service/OrderService.class
 com/hatmani/saga/paymentservice/repository/OrderRepository.class
