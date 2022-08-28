@@ -7,7 +7,8 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Sinks;
 
 import java.util.function.Supplier;
-
+//ce class permet d'ecrire dans topic pour la verification de solde de balance
+//de l'utilisateur'
 @Configuration
 public class OrderPublisherConfig {
     @Bean

@@ -3,11 +3,13 @@ package com.hatmani.saga.commons.event;
 import com.hatmani.saga.commons.dto.PaymentRequestDto;
 import com.hatmani.saga.commons.event.Util.Event;
 import com.hatmani.saga.commons.event.Util.PaymentStatus;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
 import java.util.UUID;
 @NoArgsConstructor
+@Data
 public class PaymentEvent implements Event {
     private UUID eventId = UUID.randomUUID();
     private Date eventDate = new Date();
